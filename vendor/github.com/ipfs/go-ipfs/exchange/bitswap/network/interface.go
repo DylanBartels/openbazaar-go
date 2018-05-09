@@ -11,10 +11,10 @@ import (
 
 var (
 	// These two are equivalent, legacy
-	ProtocolBitswapOne    protocol.ID = "/openbazaar/bitswap/1.0.0"
-	ProtocolBitswapNoVers protocol.ID = "/openbazaar/bitswap"
+	ProtocolBitswapOne    protocol.ID = "/opentransport/bitswap/1.0.0"
+	ProtocolBitswapNoVers protocol.ID = "/opentransport/bitswap"
 
-	ProtocolBitswap protocol.ID = "/openbazaar/bitswap/1.1.0"
+	ProtocolBitswap protocol.ID = "/opentransport/bitswap/1.1.0"
 )
 
 // BitSwapNetwork provides network connectivity for BitSwap sessions
